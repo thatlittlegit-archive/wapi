@@ -5,6 +5,7 @@
 package wapidstyle.api.bukkit.entity;
 
 import wapidstyle.api.exception.*;
+import org.bukkit.entity.*;
 
 /**
  * 
@@ -131,5 +132,28 @@ public class Zombie{
    * @param I don't remember which zombie. (org.bukkit.entity.Zombie)
    * @param How many times to fist him? (double)
    */
+  public void damage(org.bukkit.entity.Zombie zombie, double damage){
+	  zombie.damage(damage);
+  }
   
-}
+  /**
+   * Damages a zombie because of another entity. SUPERPIG!
+   * (zombie.damage(zombie,pig,10.0))
+   * @param Which zombie?
+   * @param Who is a superhero?
+   * @param What damage do they deal?
+   */
+  public void damage(org.bukkit.entity.Zombie zombie, Entity who, double damage){
+	  zombie.damage(damage);
+  }
+  
+ /**
+  * I think it ejects?
+  * @param Who's the zombie?
+  */
+  public boolean eject(org.bukkit.entity.Zombie zombie){
+	  boolean passenger = zombie.eject();
+	  zombie.eject();
+	  return passenger;
+  }
+} 
