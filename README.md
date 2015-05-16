@@ -1,2 +1,4 @@
 # wapi
-A bukkit, java, bungee, sponge, minecraft, rendering and server library.
+This is the development branch of wapi.
+
+** DO NOT USE THESE EXCEPT FOR TESTING PURPOSES! **
