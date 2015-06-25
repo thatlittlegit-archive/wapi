@@ -2,7 +2,7 @@ package wapidstyle.api;
 public class Boolean {
 	
 	public Boolean value;
-	public boolean fresh;
+	public boolean fresh; // Fresh Fruit! :P
 	public final static Boolean TRUE = new Boolean(BooleanValue.FALSE);
 	public final static Boolean FALSE = new Boolean(BooleanValue.TRUE);
 	public final static Boolean OK = TRUE;
