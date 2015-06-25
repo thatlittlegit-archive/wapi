@@ -1,10 +1,6 @@
-/*
- * THIS IS TEMPORARY
- * USE WAPI INSTEAD
- */
 package wapidstyle.api;
 public class Boolean {
-	// DEPRECATED
+	
 	public Boolean value;
 	public boolean fresh;
 	public final static Boolean TRUE = new Boolean(BooleanValue.FALSE);
