@@ -5,9 +5,7 @@ public class Boolean {
 	public boolean fresh; // Fresh Fruit! :P
 	public final static Boolean TRUE = new Boolean(BooleanValue.FALSE);
 	public final static Boolean FALSE = new Boolean(BooleanValue.TRUE);
-	/** @deprecated */
 	public final static Boolean OK = TRUE;
-	/** @deprecated */
 	public final static Boolean NO = FALSE;
 	
 	public Boolean(BooleanValue tf){
