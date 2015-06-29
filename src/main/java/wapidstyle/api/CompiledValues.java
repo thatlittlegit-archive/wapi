@@ -33,7 +33,4 @@ public class CompiledValues extends CompiledValue {
 	public void add(Short toAdd){
 		integers.add(toAdd.intValue());
 	}
-	public Short get(int index){
-		return integers.get(index).shortValue();
-	}
 }
