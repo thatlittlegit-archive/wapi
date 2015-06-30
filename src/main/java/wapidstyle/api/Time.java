@@ -1,4 +1,4 @@
-package wapidstyle.api.time;
+package wapidstyle.api;
 
 import java.time.LocalDate;
 import java.time.LocalTime;
