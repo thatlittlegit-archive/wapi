@@ -2,5 +2,7 @@
 <classpath>
 	<classpathentry kind="src" path="src/main/java"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="https://hub.spigotmc.org/nexus/service/local/repositories/snapshots/content/org/bukkit/bukkit/1.8.7-R0.1-SNAPSHOT/bukkit-1.8.7-R0.1-20150718.232630-37.jar"/>
+	<classpathentry kind="lib" path="https://hub.spigotmc.org/nexus/service/local/repositories/central/content/org/avaje/ebeanorm/avaje-ebeanorm/4.8.1/avaje-ebeanorm-4.8.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
