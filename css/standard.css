@@ -21,7 +21,7 @@
 
 .inline{display: inline;}
 .block{display: block;}
-.relative{display: relative;}
+.relative{position: relative;}
 
 .float-left{float: left;}
 .float-right{float: right;}
