@@ -4,5 +4,5 @@ jdk:
 install:
   - cd travis
   - sh import_bukkit.sh
-  - dir
-  - ls
+  - cd ..
+  - pwd
