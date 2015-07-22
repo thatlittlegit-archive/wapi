@@ -1,5 +1,1 @@
 apply plugin: 'java'
-dependencies {
-    compile files('travis/spigot.jar')
-    compile files('travis/avaje.jar')
-}
