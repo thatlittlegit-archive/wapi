@@ -1,0 +1,9 @@
+echo wapidstyle\'s NodeJS-based validator installer for CSS, HTML and JS starting!
+echo WNJSBVIFCSSHTMLJS starting!
+echo Installing jsHint...
+npm install jshint
+echo Installing cssLint...
+npm install csslint
+echo And finally htmlHint...
+npm install htmlhint
+echo Done!
