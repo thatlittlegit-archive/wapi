@@ -1,9 +1,7 @@
 language: java
 jdk:
   - oraclejdk8
-sudo: required
 install:
-  - sudo apt-get install nodejs
   - sh install.sh
 script:
   - gradle check
@@ -12,3 +10,7 @@ script:
   - jshint js/importelement/importelement.js
   - jshint js/weblibrary/weblibrary.js
   - csslint css/standard.css
+ addons:
+  apt:
+    packages:
+    - nodejs
