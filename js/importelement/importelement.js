@@ -21,7 +21,7 @@ function ImportElement(){
         this.ie.setAttribute("type", "text/javascript");
         this.ie.setAttribute("src", src);
         if(type === "javascript_error"){
-          console.warn("ImportElement: No type specified, using JavaScript!")
+          console.warn("ImportElement: No type specified, using JavaScript!");
         }
       break;
     }
