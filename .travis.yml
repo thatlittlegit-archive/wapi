@@ -10,4 +10,5 @@ script:
   - gradle assemble
   - jshint js/betterelement/betterelement.js
   - jshint js/importelement/importelement.js
+  - jshint js/weblibrary/weblibrary.js
   - csslint css/standard.css
