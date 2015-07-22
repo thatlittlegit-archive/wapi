@@ -4,7 +4,7 @@ jdk:
 sudo: required
 install:
   - sudo apt-get install nodejs
-  - sh install_validator_req.sh
+  - sh install.sh
 script:
   - gradle check
   - gradle assemble
