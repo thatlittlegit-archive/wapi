@@ -10,7 +10,3 @@ script:
   - jshint js/importelement/importelement.js
   - jshint js/weblibrary/weblibrary.js
   - csslint css/standard.css
- addons:
-  apt:
-    packages:
-    - nodejs
