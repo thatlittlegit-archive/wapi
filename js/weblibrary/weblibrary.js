@@ -142,17 +142,12 @@ function Yaml(){
     easyImport(css, "https://cdn.jsdelivr.net/yaml/4.1.1/core/iehacks.min.css");
   };
 }
-/*
-   Gumby would be here, however Sass is needed and neither Sass or SCSS
-   are supported by WebLibrary. I would include it, however Sass is needed.
-   (in fact, I think Gumby might be cool to have.)
-   If someone (not me, I'm too lazy and don't know how) feels like making one,
-   go ahead. It needs to convert JSON to a Gumby-readable format. Also, try
-   using Fetch instead of XMLHttpRequest (AJAX).
-
-   Please note you ARE allowed to use Gumby on your site; it's just not here.
-   - wapidstyle
-*/
+function Gumby(){
+  var add = function(){
+    easyImport(js, "https://cdn.jsdelivr.net/gumby/2.5.11/js/libs/gumby.min.js");
+    easyImport(js, "https://cdn.jsdelivr.net/gumby/2.5.11/css/gumby.css")
+  }
+}
 function TukTuk(){
   var noIcons = false;
   var useTheme;
