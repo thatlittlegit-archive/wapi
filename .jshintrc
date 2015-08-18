@@ -1,7 +1,8 @@
 {
   "esnext":true,
   "undef":true,
-  "predef":[
-    "window", "console", "document"
-  ]
+  "broswer":true,
+  "devel":true,
+  "bitwise":true,
+
 }
