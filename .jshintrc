@@ -1,8 +1,7 @@
 {
   "esnext":true,
   "undef":true,
-  "broswer":true,
+  "browser":true,
   "devel":true,
-  "bitwise":true,
-
+  "bitwise":true
 }
