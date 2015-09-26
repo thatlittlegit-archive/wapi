@@ -1,0 +1,7 @@
+package wapi.graphical;
+
+public class Location {
+	long x;
+	long y;
+	long z;
+}
