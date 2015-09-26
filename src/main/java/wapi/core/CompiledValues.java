@@ -1,6 +1,5 @@
 package wapi.core;
 
-import wapi.shortcut.string;
 import java.util.ArrayList;
 import java.util.List;
 
