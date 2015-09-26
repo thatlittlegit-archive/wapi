@@ -1,5 +1,7 @@
 package wapi.core;
 
+import wapi.shortcut.string;
+
 public class CompiledValue {
 	public Integer integer;
 	public String string;
