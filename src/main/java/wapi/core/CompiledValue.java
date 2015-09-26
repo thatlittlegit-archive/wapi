@@ -1,4 +1,4 @@
-package wapidstyle.api;
+package wapi.core;
 
 public class CompiledValue {
 	public Integer integer;

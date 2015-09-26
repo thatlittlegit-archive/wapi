@@ -1,4 +1,4 @@
-package wapidstyle.api;
+package wapi.core;
 
 import java.util.ArrayList;
 import java.util.List;

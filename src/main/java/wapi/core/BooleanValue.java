@@ -1,4 +1,4 @@
-package wapidstyle.api;
+package wapi.core;
 
 public enum BooleanValue {
 	TRUE, FALSE

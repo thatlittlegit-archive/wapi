@@ -1,4 +1,4 @@
-package wapidstyle.api;
+package wapi.core;
 public class Boolean {
 	
 	public Boolean value;

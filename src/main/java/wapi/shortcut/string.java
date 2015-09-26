@@ -1,4 +1,4 @@
-package java.lang;
+package wapi.shortcut;
 
 public class string {
 	String string;
