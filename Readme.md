@@ -12,8 +12,8 @@ together by wAPI.
 
 ## Building the Java
 Use Gradle to build the Java. If you don't have Gradle installed,
-~~install it from gradle.org~~ use the wrapper by replacing `gradle`
-with `gradlew`. The wrapper and build.gradle is supplied.
+you'll need to install it through [gradle.org](gradle.org). Once
+you have it installed, run:
 ```shell
 gradle assemble
 ```
@@ -24,11 +24,12 @@ Use `jshint`, installable from [NPM](https://www.npmjs.com/package/jshint). To
 install it, use `npm install jshint`.
 
 To validate:
+
 ```shell
 jshint js/project-name/project-name.js
 ```
-Note that it is not a *perfect* validation. It ***does not*** check for
-missing functions, etc.
+Please note that JSHint almost **only checks for syntax errors**. A tool may be
+made in future to improve this, however for now it will only check syntax.
 
 ### CSS
 Uses csslint, installable from [NPM](https://www.npmjs.com/package/csslint). To
@@ -42,25 +43,25 @@ csslint css/standard.css
 #### IDEs
 Reference wAPI in your build path in your IDE. Check your IDE's instructions for how to do so.
 #### No IDE
-I'm going to keep it simple: **GET AN IDE.** An IDE is VERY simple to use, and many support multiple
-languages. I know NetBeans, a Java IDE, supports HTML5, PHP, C++, C AND Java. Atom, what I'm using
-to type this, supports a lot of languages and has a lot of addons. Eclipse, an extremely popular IDE,
-has Markdown and quite a few versions for other languages. So **get one**.
-### :bulb: Tip for the JS and CSS
-If you don't want all the URL stuff, then either:
-* make a [bit.ly](bit.ly)
-* clone the project and reference the JS/CSS folder.
+I'm going to keep it simple, and tell you to just *get an IDE.* An IDE is VERY simple to use, and many support
+multiple languages. NetBeans, a Java IDE, supports HTML5, PHP, C++, C and Java. Atom, what I was using
+to type the rewrite, supports a lot of languages and has a lot of addons. Eclipse, an extremely popular IDE,
+has Markdown and quite a few versions for other languages. Brackets. XCode. Komodo Edit. There are so many.
+So [**get one**](https://en.wikipedia.org/wiki/Comparison_of_integrated_development_environments#Java).
+
 ### JavaScript
 
+Embed this into your HTML:
 ```html
-<script src="https://raw.githubusercontent.com/wapidstyle/wapi/master/js/project_name/project_name.js"></script>
+<script src="https://bitbucket.org/wapidstyle/wapi/raw/master/js/project_name/project_name.js"></script>
 ```
+
 ### CSS
 ```html
-<link rel="stylesheet" href="https://raw.githubusercontent.com/wapidstyle/wapi/master/css/sheet_name.css">
+<link rel="stylesheet" href="https://bitbucket.org/wapidstyle/wapi/raw/master/css/standard.css">
 ```
 ## Contributing
 Simply fork the project and follow the terms in CONTRIBUTING.md.
 ### Contributors
 Currently, there are 1. :unamused: Try contributing!
-* [wapidstyle](https://github.com/wapidstyle)
+* [wapidstyle](https://github.com/wapidstyle) 
