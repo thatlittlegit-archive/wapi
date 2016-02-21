@@ -2,6 +2,7 @@ package wapi.core;
 
 import java.util.ArrayList;
 import java.util.List;
+import wapi.shortcut.string;
 
 public class CompiledValues extends CompiledValue {
 	/** @deprecated Use numbers instead */
