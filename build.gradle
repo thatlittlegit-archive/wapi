@@ -1,11 +1,18 @@
 apply plugin: 'java'
 repositories{
    maven{
-      url "https://hub.spigotmc.org/nexus/content/repositories/snapshots/"
+      name "Spigot"
+      url "https://hub.spigotmc.org/nexus/service/local/repositories/snapshots/content/"
    }
+   maven{
+      name "BungeeCord"
+      url "https://oss.sonatype.org/content/repositories/snapshots"
+   }
+   mavenCentral()
 }
 dependencies{
    compile "org.spigotmc:spigot-api:1.8.8-R0.1-SNAPSHOT"
+   testCompile 'junit:junit:4.12'
 }
 task wrapper(type: Wrapper){
    gradleVersion = '2.6-rc-2'
