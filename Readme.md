@@ -1,3 +1,4 @@
+### This branch is **discontinued**. Use `master` instead.
 # wAPI
 
 wAPI is an API made by [wapidstyle](https://github.com/wapidstyle) for the original purpose of
