@@ -1,5 +1,15 @@
 package wapi.core;
 
+import java.util.List;
+import java.util.ArrayList;
+import java.util.Scanner;
+
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+
+import javax.script.ScriptEngineManager;
+import javax.script.ScriptException;
+
 public class CombinedScript {
     public String searchRoot;
     public List<String> scripts = new ArrayList<>();
@@ -15,13 +25,13 @@ public class CombinedScript {
         }
         Scanner in = new Scanner(new FileReader(searchRoot + "/" + relativeFile));
         String script = "";
-        while(in.hasNext) {
+        while(in.hasNext()) {
             script = script + in.next();
         }
         scripts.add(script);
     }
 
-    public void runScript() {
+    public void runScript() throws ScriptException {
         String finalCommand = "";
         for(int counter = 0; scripts.get(counter) != null; counter += 1) {
             finalCommand += scripts.get(counter);
