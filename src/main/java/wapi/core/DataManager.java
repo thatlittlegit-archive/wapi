@@ -7,9 +7,9 @@ public class DataManager {
 
     private DataManager(){}
     public static void put(String domain, String name, CompiledValue value) {
-        Hashtable.put(domain + "." + name, value);
+        data.put(domain + "." + name, value);
     }
     public static CompiledValue get(String domain, String name) {
-        return Hashtable.get(domain + "." + name);
+        return (CompiledValue) data.get(domain + "." + name);
     }
 }
