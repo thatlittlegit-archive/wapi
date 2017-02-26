@@ -17,7 +17,7 @@ dependencies{
    testCompile 'junit:junit:4.12'
 }
 task wrapper(type: Wrapper){
-   gradleVersion = '2.6-rc-2'
+   gradleVersion = '3.4'
 }
 
 task createPom << {
