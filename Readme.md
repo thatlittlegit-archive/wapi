@@ -43,11 +43,43 @@ csslint css/standard.css
 #### IDEs
 Reference wAPI in your build path in your IDE. Check your IDE's instructions for how to do so.
 #### No IDE
-I'm going to keep it simple, and tell you to just *get an IDE.* An IDE is VERY simple to use, and many support
-multiple languages. NetBeans, a Java IDE, supports HTML5, PHP, C++, C and Java. Atom, what I was using
-to type the rewrite, supports a lot of languages and has a lot of addons. Eclipse, an extremely popular IDE,
-has Markdown and quite a few versions for other languages. Brackets. XCode. Komodo Edit. There are so many.
-So [**get one**](https://en.wikipedia.org/wiki/Comparison_of_integrated_development_environments#Java).
+##### Gradle
+```groovy
+repositories {
+    maven {
+        name 'wapi'
+        url 'http://wapidstyle.bitbucket.io/'
+    }
+}
+
+dependencies {
+    compile "wapidstyle:wapi:1.0.3"
+}
+```
+##### Maven
+```xml
+<repositories>
+    <repository>
+        <id>wapi</id>
+        <url>http://wapidstyle.bitbucket.io/</url>
+    </repository>
+</repositories>
+
+<dependencies>
+    <dependency>
+        <groupId>wapidstyle</groupId>
+        <artifactId>wapi</artifactId>
+        <version>1.0.3</version>
+        <scope>compile</scope>
+    </dependency>
+</dependencies>
+```
+##### Ant
+No clue -- feel free to contribute!
+##### `javac`
+**You have GOT to be kidding me.**
+
+Please, just [get an IDE](https://en.wikipedia.org/wiki/Comparison_of_integrated_development_environments#Java).
 
 ### JavaScript
 
