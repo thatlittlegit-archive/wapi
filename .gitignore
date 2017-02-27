@@ -4,3 +4,9 @@ bin/
 gradle/wrapper/
 pom.xml
 build/*
+
+spigot/build/*
+spigot/gradle/wrapper
+spigot/bin/
+spigot/pom.xml
+spigot/.gradle
