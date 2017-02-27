@@ -82,7 +82,15 @@ No clue -- feel free to contribute!
 Please, just [get an IDE](https://en.wikipedia.org/wiki/Comparison_of_integrated_development_environments#Java).
 
 ### JavaScript
+#### Node.js Modules
+```shell
+REM On Windows
+gradlew js-install
 
+# On Linux/macOS/BSD/Solaris/every good OS *ever*
+./gradlew js-install
+```
+#### HTML
 Embed this into your HTML:
 ```html
 <script src="https://bitbucket.org/wapidstyle/wapi/raw/master/js/project_name/project_name.js"></script>
