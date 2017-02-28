@@ -29,3 +29,7 @@ task createPom << {
       }
    }.writeTo("pom.xml")
 }
+
+task genMaven {}
+genMaven.dependsOn(createPom)
+genMaven.dependsOn(jar)
