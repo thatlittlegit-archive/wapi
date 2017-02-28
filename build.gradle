@@ -15,7 +15,7 @@ task createPom << {
    pom {
       project {
          groupId 'wapidstyle'
-         artifactId 'wapi-spigot'
+         artifactId 'wapi'
          version wapiVersion
 
          inceptionYear '2015'
