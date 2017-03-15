@@ -10,7 +10,7 @@ task jsinstall {
      p.waitFor()
 }
 
-task createPom << {
+task pom << {
    String wapiVersion = new groovy.json.JsonSlurper().parseText(file("metadata.json").text).version
    pom {
       project {
@@ -30,6 +30,6 @@ task createPom << {
    }.writeTo("pom.xml")
 }
 
-task genMaven {}
-genMaven.dependsOn(createPom)
-genMaven.dependsOn(jar)
+task maven {}
+maven.dependsOn(pom)
+maven.dependsOn(jar)
