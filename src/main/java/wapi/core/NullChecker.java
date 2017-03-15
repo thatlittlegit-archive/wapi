@@ -1,4 +1,4 @@
-package wapi;
+package wapi.core;
 
 public class NullChecker {
 	public static boolean isNull(Object o) {
