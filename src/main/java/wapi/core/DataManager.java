@@ -12,4 +12,8 @@ public class DataManager {
     public static CompiledValue get(String domain, String name) {
         return (CompiledValue) data.get(domain + "." + name);
     }
+
+    public static boolean contains(String domain, String name) {
+	return data.contains(domain + "." + name);
+    }
 }
