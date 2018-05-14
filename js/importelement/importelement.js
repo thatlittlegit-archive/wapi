@@ -21,8 +21,3 @@ function importResource(type, location, async, appendTo) {
 
 	document.querySelector(appendTo).append(elem);
 }
-
-/* @deprecated */
-function easyImport(type, src, appendTo){
-	importResource(type, src, false, appendTo);
-}
