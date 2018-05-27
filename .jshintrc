@@ -1,7 +1,0 @@
-{
-  "esnext":true,
-  "undef":true,
-  "browser":true,
-  "devel":true,
-  "bitwise":true
-}
