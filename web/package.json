@@ -4,6 +4,18 @@
   },
   "devDependencies": {
     "xo": "*",
-    "stylelint": "*"
+    "stylelint": "*",
+    "stylelint-config-standard": "*"
+  },
+  "xo": {
+    "envs": [
+      "browser"
+    ],
+    "rules": {
+      "prefer-arrow-callback": 0
+    }
+  },
+  "stylelint": {
+    "extends": ["stylelint-config-standard"]
   }
 }

@@ -1,33 +1,33 @@
-.font-100{font-weight:100}
-.font-200{font-weight:200}
-.font-300{font-weight:300}
-.font-400{font-weight:400}
-.font-500{font-weight:500}
-.font-600{font-weight:600}
-.font-700{font-weight:700}
-.font-800{font-weight:800}
-.font-900{font-weight:900}
+.font-100 { font-weight: 100; }
+.font-200 { font-weight: 200; }
+.font-300 { font-weight: 300; }
+.font-400 { font-weight: 400; }
+.font-500 { font-weight: 500; }
+.font-600 { font-weight: 600; }
+.font-700 { font-weight: 700; }
+.font-800 { font-weight: 800; }
+.font-900 { font-weight: 900; }
 
-.bold{font-weight: bold;}
-.regular{font-weight: normal;}
-.italic{font-style: italic;}
+.bold { font-weight: bold; }
+.regular { font-weight: normal; }
+.italic { font-style: italic; }
 
-.xxlarge{font-size: 600%;}
-.xlarge{font-size: 450%;}
-.large{font-size: 225%;}
-.medium{font-size: 150%;}
-.small{font-size: 90%;}
+.xxlarge { font-size: 600%; }
+.xlarge { font-size: 450%; }
+.large { font-size: 225%; }
+.medium { font-size: 150%; }
+.small { font-size: 90%; }
 
-.left{text-align: left;}
-.center{text-align: center;}
+.left { text-align: left; }
+.center { text-align: center; }
 
-.white{color: white;}
-.grey{color: lightgrey;}
-.black{color: black;}
+.white { color: white; }
+.grey { color: lightgrey; }
+.black { color: black; }
 
-.inline{display: inline;}
-.block{display: block;}
-.relative{position: relative;}
+.inline { display: inline; }
+.block { display: block; }
+.relative { position: relative; }
 
-.float-left{float: left;}
-.float-right{float: right;}
+.float-left { float: left; }
+.float-right { float: right; }

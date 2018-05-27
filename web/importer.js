@@ -2,13 +2,14 @@
  * Importer 2.0.0 by thatlittlegit
  */
 
+// eslint-disable-next-line no-unused-vars
 function aliasElementToUrl(elementName, url) {
 	fetch(url)
 		.then(function (response) {
 			return response.text();
 		})
 		.then(function (text) {
-			Array.from(document.getElementsByTagName(elementName)).forEach(function (element) {
+			[...document.getElementsByTagName(elementName)].forEach(function (element) {
 				element.innerHTML = text;
 			});
 		});
