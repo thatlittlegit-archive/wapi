@@ -10,3 +10,6 @@ spigot/gradle/wrapper
 spigot/bin/
 spigot/pom.xml
 spigot/.gradle
+
+web/package-lock.json
+web/node_modules

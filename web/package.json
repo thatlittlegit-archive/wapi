@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "test": "xo && stylelint *.css"
+  },
+  "devDependencies": {
+    "xo": "*",
+    "stylelint": "*"
+  }
+}

@@ -1,12 +1,8 @@
 language: java
 jdk:
   - oraclejdk8
-install:
-  - sh install.sh
+
 script:
   - gradle check
   - gradle assemble
-  - jshint js/betterelement/betterelement.js
-  - jshint js/importelement/importelement.js
-  - jshint js/weblibrary/weblibrary.js
-  - csslint css/standard.css
+  - cd web && npm test

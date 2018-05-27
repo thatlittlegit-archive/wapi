@@ -18,26 +18,6 @@ you have it installed, run:
 gradle assemble
 ```
 
-## Validation of the Web modules
-### JavaScript
-Use `jshint`, installable from [NPM](https://www.npmjs.com/package/jshint). To
-install it, use `npm install jshint`.
-
-To validate:
-
-```shell
-jshint js/project-name/project-name.js
-```
-Please note that JSHint almost **only checks for syntax errors**. A tool may be
-made in future to improve this, however for now it will only check syntax.
-
-### CSS
-Uses csslint, installable from [NPM](https://www.npmjs.com/package/csslint). To
-install it, use `npm install csslint`.
-```shell
-csslint css/standard.css
-```
-
 ## Installing
 ### Java
 #### IDEs
