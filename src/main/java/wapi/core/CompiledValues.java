@@ -1,6 +1,5 @@
 package wapi.core;
 
-import wapi.shortcut.string;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -14,7 +13,6 @@ public class CompiledValues extends CompiledValue {
     public int add(int toAdd){integers.add(new Integer(toAdd));return toAdd;}
     public Object add(Object toAdd){objects.add(toAdd);return toAdd;}
     public String add(String toAdd){strings.add(toAdd);return toAdd;}
-    public string add(string toAdd){add(toAdd.toString());return toAdd;}
     public Boolean add(Boolean toAdd){booleans.add(toAdd);return toAdd;}
     public java.lang.Boolean add(java.lang.Boolean toAdd){add(Boolean.toBoolean(toAdd.booleanValue()));return toAdd;}
 }
