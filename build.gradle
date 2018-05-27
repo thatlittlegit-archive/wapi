@@ -4,25 +4,18 @@ task wrapper(type: Wrapper){
    gradleVersion = '3.4'
 }
 
-task jsinstall {
-     Runtime r = Runtime.getRuntime()
-     Process p = r.exec("npm install --global jshint jscs csslint htmlhint")
-     p.waitFor()
-}
-
-task pom << {
-   String wapiVersion = new groovy.json.JsonSlurper().parseText(file("metadata.json").text).version
+task pom {
    pom {
       project {
          groupId 'wapidstyle'
          artifactId 'wapi'
-         version wapiVersion
+         version '1.0.7'
 
          inceptionYear '2015'
          licenses {
             license {
                name 'The MIT License'
-               url 'http://mit-license.org/'
+               url 'https://mit-license.org/'
                distribution 'repo'
             }
          }
