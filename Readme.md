@@ -1,29 +1,18 @@
 # wAPI
+wAPI is a set of utilities made by [thatlittlegit](https://thatlittlegit.tk) originally
+for making [Bukkit](https://bukkit.org) plugins. However, it's evolved past that to a
+set of random utilities written in Java and JavaScript. They can now import elements and
+scripts, run scripts and more.
 
-wAPI is an API made by [wapidstyle](https://github.com/wapidstyle) for the original purpose of
-making plugins for Bukkit easier. Later, it morphed into an interface for CSS, Java and JavaScript
-containing multiple modules and a Java interface. Modules letting you import, use preset imports,
-and make HTML elements. Modules making website styles, like centering objects, easy. It became a
-network of modules, connected through wAPI. Like an atom, all the electrons and neutrons, brought
-together by the nucleus. Using the atom theory, the modules (electrons and neutrons) are brought
-together by wAPI.
-
-> Fact: this readme was made in a text editor called... Atom.
-
-## Building the Java
-Use Gradle to build the Java. If you don't have Gradle installed,
-you'll need to install it through [gradle.org](gradle.org). Once
-you have it installed, run:
+## Compiling the Java
 ```shell
-gradle assemble
+./gradlew assemble
 ```
+The JAR file will be in `build/libs`.
 
 ## Installing
 ### Java
-#### IDEs
-Reference wAPI in your build path in your IDE. Check your IDE's instructions for how to do so.
-#### No IDE
-##### Gradle
+#### Gradle
 ```groovy
 repositories {
     maven {
@@ -36,7 +25,7 @@ dependencies {
     compile "wapidstyle:wapi:1.0.3"
 }
 ```
-##### Maven
+#### Maven
 ```xml
 <repositories>
     <repository>
@@ -54,34 +43,14 @@ dependencies {
     </dependency>
 </dependencies>
 ```
-##### Ant
-No clue -- feel free to contribute!
-##### `javac`
-**You have GOT to be kidding me.**
-
-Please, just [get an IDE](https://en.wikipedia.org/wiki/Comparison_of_integrated_development_environments#Java).
 
 ### JavaScript
-#### Node.js Modules
-```shell
-REM On Windows
-gradlew js-install
-
-# On Linux/macOS/BSD/Solaris/every good OS *ever*
-./gradlew js-install
-```
-#### HTML
-Embed this into your HTML:
 ```html
-<script src="https://bitbucket.org/wapidstyle/wapi/raw/master/js/project_name/project_name.js"></script>
+<!-- Importer      --><script src="https://cdn.rawgit.com/thatlittlegit/wapi/master/web/importer.js"></script>
+<!-- ImportElement --><script src="https://cdn.rawgit.com/thatlittlegit/wapi/master/web/importelement.js"></script>
 ```
 
 ### CSS
 ```html
-<link rel="stylesheet" href="https://bitbucket.org/wapidstyle/wapi/raw/master/css/standard.css">
+<link rel="stylesheet" href="https://cdn.rawgit.com/thatlittlegit/wapi/master/web/standard.css">
 ```
-## Contributing
-Simply fork the project and follow the terms in CONTRIBUTING.md.
-### Contributors
-Currently, there are 1. :unamused: Try contributing!
-* [wapidstyle](https://github.com/wapidstyle) 
