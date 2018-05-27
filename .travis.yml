@@ -5,4 +5,4 @@ jdk:
 script:
   - gradle check
   - gradle assemble
-  - cd web && npm test
+  - cd web && npm i && npm test
