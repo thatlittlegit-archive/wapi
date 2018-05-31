@@ -1,4 +1,4 @@
-package wapi.core;
+package wapi;
 
 public class CompiledValue {
     public Integer integer;

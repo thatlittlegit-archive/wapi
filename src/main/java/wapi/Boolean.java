@@ -1,4 +1,4 @@
-package wapi.core;
+package wapi;
 public class Boolean {
 	
 	public Boolean value;

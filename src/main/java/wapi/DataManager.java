@@ -1,4 +1,4 @@
-package wapi.core;
+package wapi;
 
 import java.util.Hashtable;
 

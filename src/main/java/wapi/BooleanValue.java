@@ -1,4 +1,4 @@
-package wapi.core;
+package wapi;
 
 public enum BooleanValue {
 	TRUE, FALSE

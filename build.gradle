@@ -9,7 +9,7 @@ task pom {
       project {
          groupId 'wapidstyle'
          artifactId 'wapi'
-         version '1.0.7'
+         version '2.0.0'
 
          inceptionYear '2015'
          licenses {

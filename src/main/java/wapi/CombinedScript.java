@@ -1,4 +1,4 @@
-package wapi.core;
+package wapi;
 
 import java.util.List;
 import java.util.ArrayList;
