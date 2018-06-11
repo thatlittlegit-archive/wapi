@@ -28,6 +28,7 @@ public class CombinedScript {
         while(in.hasNext()) {
             script = script + in.next();
         }
+        in.close();
         scripts.add(script);
     }
 
