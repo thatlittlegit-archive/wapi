@@ -4,5 +4,4 @@ jdk:
 
 script:
   - ./gradlew check
-  - ./gradlew assemble
   - cd web && npm i && npm test
