@@ -1,7 +1,8 @@
 apply plugin: 'java'
 apply plugin: 'maven'
-task wrapper(type: Wrapper){
-   gradleVersion = '3.4'
+
+wrapper {
+   gradleVersion = '4.8'
 }
 
 task pom {
