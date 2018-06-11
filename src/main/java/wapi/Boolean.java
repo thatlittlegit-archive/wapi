@@ -1,4 +1,7 @@
 package wapi;
+
+/** @deprecated */
+@Deprecated
 public class Boolean {
 	
 	public Boolean value;
