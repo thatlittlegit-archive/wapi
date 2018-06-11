@@ -3,6 +3,6 @@ jdk:
   - oraclejdk8
 
 script:
-  - gradle check
-  - gradle assemble
+  - ./gradlew check
+  - ./gradlew assemble
   - cd web && npm i && npm test
