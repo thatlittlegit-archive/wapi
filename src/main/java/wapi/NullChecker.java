@@ -1,13 +1,11 @@
 package wapi;
 
+/** @deprecated */
+@Deprecated
 public class NullChecker {
 	public static boolean isNull(Object o) {
 		try {
-			if(o == null) {
-				return true;
-			} else {
-				return false;
-			}
+			return o == null;
 		} catch (NullPointerException e) {
 			return false;
 		}
