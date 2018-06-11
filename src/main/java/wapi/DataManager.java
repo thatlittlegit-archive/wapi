@@ -2,6 +2,8 @@ package wapi;
 
 import java.util.Hashtable;
 
+/** @deprecated Use java.util.Hashtable<java.lang.String, wapi.CompiledValue> */
+@Deprecated
 public class DataManager {
     private static Hashtable<String, CompiledValue> data = new Hashtable<>();
 
