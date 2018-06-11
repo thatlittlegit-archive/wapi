@@ -3,6 +3,8 @@ package wapi;
 import java.util.ArrayList;
 import java.util.List;
 
+/** @deprecated Use ArrayList<CompiledValue> */
+@Deprecated
 public class CompiledValues extends CompiledValue {
     public List<Integer> integers = new ArrayList<Integer>();
     public List<String> strings = new ArrayList<String>();
