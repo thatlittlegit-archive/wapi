@@ -28,16 +28,3 @@ results in
 <!-- index.html -->
 <topbar>foo</topbar>
 ```
-
-### ImportElement
-**Deprecated.** Please use manual `<script>` and `<link>` tags. *ImportElement does NOT support SRI!*
-
-Import `<script>` or `<link>`s via JavaScript.
-
-#### Usage
-```js
-importResource('js', 'index.js', true, 'body'); // Imports index.js asynchronously to <body>
-importResource('js', 'index.js', true);         // Imports index.js asynchronously
-importResource('js', 'index.js');               // Imports index.js
-importResource('css', 'index.css');             // Imports index.css (works with all shown above)
-```
