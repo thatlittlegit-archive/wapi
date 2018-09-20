@@ -1,5 +1,8 @@
 package wapi;
 
+/** @deprecated This entire class is a bad idea; strong-typedness exists for a reason. In addition,
+ * it's easy enough to make an equivalent.
+ */
 public class CompiledValue {
     public Integer integer;
     public String string;
