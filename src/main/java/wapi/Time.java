@@ -3,6 +3,7 @@ package wapi;
 import java.time.LocalDate;
 import java.time.LocalTime;
 
+/** @deprecated use Local(Time|Date).now().toString() or suggested */
 public class Time {
 	/** @deprecated use System.nanoTime() */
 	public long getNsTimeOfVM(){
